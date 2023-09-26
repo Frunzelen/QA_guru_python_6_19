@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qa-guru-python-6-19-ter-akopova-elena"
+version = "0.1.0"
+description = "homework_QA_guru_python_6_19"
+authors = ["Elena Ter-Akopova <testfrog@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "2.0.0rc4"
+pytest = "^7.4.0"
+pylint = "^2.17.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
